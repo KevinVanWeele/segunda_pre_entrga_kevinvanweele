@@ -1,0 +1,46 @@
+ul{list-style-type: none ;}
+a{text-decoration:none ;}
+ 
+@media (min-width:1024px){
+    .gridindex{display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header,footer, ul{display: flex;}
+main{display: grid;
+grid-template-areas:
+"imgp imgp imgp imgp"
+"titulo titulo titulo titulo"
+"parizq imgg parder imgfer";
+grid-template-columns: repeat(4, 1fr);
+grid-template-areas: auto auto auto auto;
+}
+.imgprincipalindex{grid-area: imgp;}
+.titulointroduccion{grid-area: titulo;}
+.parrafoizq{grid-area: parizq;}
+.imgguia{grid-area: imgg;}
+.parrafoder{grid-area: parder;}
+.imgfr{grid-area: imgfer;}
+.just-cont-sp-bet{justify-content:space-between;}
+.alig-items-center{align-items: center;}
+.alig-center{align-content: space-around;}
+
+.gridqs{display: grid;
+grid-template-columns: 100%;
+grid-template-rows: auto auto auto;
+}
+.gridmainqs{display: grid;
+grid-template-areas:
+"imgprincipalqs imgprincipalqs"
+"tituloqs tituloqs"
+"quinesson imgq";
+grid-template-columns: 1fr;
+grid-template-areas: auto;}
+.imgprincipalqs{grid-area: imgpqs;}
+.tituloqs{grid-area: tituloqs;}
+.quinesson{grid-area: quinesson;}
+.imgq{grid-area: imgq;}
+
+}
+
+@media (max-width:768px){}
