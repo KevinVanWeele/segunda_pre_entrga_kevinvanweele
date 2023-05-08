@@ -1,0 +1,69 @@
+@media (max-width:768px){
+    header, footer{display:flex;
+        flex-direction: column;align-items: center;}
+    ul{display:flex;padding:0;flex-wrap: wrap}
+    .imgguia{display: flex;
+        justify-content: center;}
+        .imgfr{display: flex;
+            justify-content: center;}
+            body{background-color: $negro;}
+            .gridmainarmas{
+                display: grid;
+                grid-template-areas:
+                "titulomainarmas"
+                "arscar"
+                 "armp40"
+                 "arg18"
+                 "arfrancotirador"
+                 "mp40"
+                 "ump"
+                 "p90"
+                 "mp5"
+                 "m102"
+                 "m28"
+                 "spa"
+                 "escopeta-recortada"
+                 "fracotirador"
+                 "brm28"
+                 "kark98";
+                grid-template-columns: 100%;
+                grid-template-rows: auto;
+            }
+    .titulomainarmas{grid-area: titulomainarmas;}
+    .arscar{grid-area: arscar;}
+    .armp40{grid-area: armp40;}
+    .arg18{grid-area: arg18;}
+    .arfrancotirador{grid-area: arfrancotirador;}
+    .mp40{grid-area: mp40;}
+    .ump{grid-area: ump;}
+    .p90{grid-area: p90;}
+    .mp5{grid-area: mp5;}
+    .m102{grid-area: m102;}
+    .m28{grid-area: m28;}
+    .spa{grid-area: spa;}
+    .escopeta-recortada{grid-area: escopeta-recortada;}
+    .fracotirador{grid-area: fracotirador;}
+    .brm28{grid-area: brm28;}
+    .kark98{grid-area: kark98;}
+    
+    .gridmainvaloracion{
+        display: grid;
+        grid-template-areas:
+        "encabezadovl"
+        "form"
+        "parrafoizqvl";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        .parrafodervl{ align-items: center;
+        margin: 20px;}
+        .parrafoizqvl{ align-items: center;
+        margin: 20px;}
+    }
+    .encabezadovl{grid-area: encabezadovl;}
+    .form{grid-area: form;}
+    .parrafoizqvl{grid-area: parrafoizqvl;}
+    label{color: $blanco;}
+    form{display: flex;
+    flex-direction: column;}
+    label{font-size: 20px;}
+}

@@ -1,0 +1,12 @@
+.armasti{
+    transition: all 1s;
+    &:hover{
+        transform:translateY(-10px);
+    }
+}
+.perti{
+    transition: all 1s;
+    &:hover{
+        transform:translateY(-10px);
+    }
+}

@@ -1,0 +1,139 @@
+@media (min-width:1024px){
+    .gridindex{display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header, footer, ul{display: flex;
+justify-content: space-between;}
+.gridmainindex{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo"
+    "pIzq imgDer"
+    "imgizq pDer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+.titulointroducccion{grid-area: titulo;}
+.parrafoizq{grid-area: pIzq;}
+.imgguia{grid-area: imgDer;}
+.parrafoder{grid-area: pDer;}
+.imgfr{grid-area: imgizq;}
+.just-content-spa-betw
+{justify-content: space-between;}
+.align-items-center{align-items: center;}
+.gridindex{display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.gridindex{display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.imgguia{display: flex;
+    justify-content: center;}
+    .imgfr{display: flex;
+        justify-content: center;}
+        body{background-color: $negro;}
+/* QUINES SON */
+.gridqs{display: grid;
+grid-template-columns: 100%;
+grid-template-rows: auto auto auto;
+}
+.gridmainqs{display: grid;
+grid-template-areas:
+"imgprincipalqs"
+"tituloqs"
+"quinesson"
+"imgq";
+grid-template-columns: 100%;
+grid-template-areas: auto auto auto auto;}
+.imgprincipalqs{grid-area: imgpqs;}
+.tituloqs{grid-area: tituloqs;}
+.quinesson{grid-area: quinesson;}
+.imgq{grid-area: imgq;}
+.just-cont-sp-betq{justify-content:space-between;}
+.gridmainqs{display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;}
+
+    .gridmainpersonajes{
+        display: grid;
+        grid-template-areas:
+        "titulopersonajes titulopersonajes titulopersonajes"
+        "permaxim perhayato persteffie"
+        "moco miguel andrew"
+        "rafael antonio wukong"
+        "laura caroline A124";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto auto;
+    }
+    .titulopersonajes{grid-area: titulopersonajes;}
+    .permaxim{grid-area: permaxim;}
+    .perhayato{grid-area: perhayato;}
+    .persteffie{grid-area: persteffie;}
+    .moco{grid-area: moco;}
+    .miguel{grid-area: miguel;}
+    .andrew{grid-area: andrew;}
+    .rafael{grid-area: rafael;}
+    .antonio{grid-area: antonio;}
+    .wukong{grid-area: wukong;}
+    .laura{grid-area: laura;}
+    .caroline{grid-area: caroline;}
+    .A124{grid-area: A124;}
+    .per{display: flex;}
+    .gridmainarmas{
+        display: grid;
+        grid-template-areas:
+        "titulomainarmas titulomainarmas titulomainarmas titulomainarmas"
+        "arscar armp40 arg18 arfrancotirador"
+        "mp40 ump p90 mp5"
+        "m102 m28 spa escopeta-recortada"
+        "fracotirador brm28 kark98 kark98";
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: auto auto;
+    }
+    .titulomainarmas{grid-area: titulomainarmas;}
+    .arscar{grid-area: arscar;}
+    .armp40{grid-area: armp40;}
+    .arg18{grid-area: arg18;}
+    .arfrancotirador{grid-area: arfrancotirador;}
+    .mp40{grid-area: mp40;}
+    .ump{grid-area: ump;}
+    .p90{grid-area: p90;}
+    .mp5{grid-area: mp5;}
+    .m102{grid-area: m102;}
+    .m28{grid-area: m28;}
+    .spa{grid-area: spa;}
+    .escopeta-recortada{grid-area: escopeta-recortada;}
+    .fracotirador{grid-area: fracotirador;}
+    .brm28{grid-area: brm28;}
+    .kark98{grid-area: kark98;}
+    .kark98{width: kark98;}
+    .gridmainvaloracion{
+        display: grid;
+        grid-template-areas:
+        "encabezadovl encabezadovl encabezadovl"
+        "parrafodervl form parrafoizqvl"
+        "imgvl imgvl imgvl";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto auto;
+        .parrafodervl{ align-items: center;
+        margin: 20px;}
+        .parrafoizqvl{ align-items: center;
+        margin: 20px;}
+    }
+    .encabezadovl{grid-area: encabezadovl;}
+    .parrafodervl{grid-area: parrafodervl;}
+    .form{grid-area: form;}
+    .parrafoizqvl{grid-area: parrafoizqvl;}
+    .imgvl{grid-area: imgvl;}
+    label{color: $blanco;}
+    form{display: flex;
+    flex-direction: column;}
+    .imgvl{display: flex;
+    justify-content: center;}
+    label{font-size: 20px;}
+    .kark98{width: 273px;}
+}

@@ -1,116 +1,495 @@
-ul{list-style-type: none ;}
-a{text-decoration:none ;}
-.img-fluid{width:250px;height: auto}
-.img-fluidar{width:100px;height: auto}
-.img-fluidlogo{width:100px;height: auto}
-.img-fluidqs{width:350px;height: auto}
-.p20{padding:20px}
-.m10{margin:20px}
-.mb20{margin-bottom:20px}
-.parrafoizq{color: white;}
-.parrafoder{color: white;}
-.titulointroducccion{color: white;}
-.rrss{color: white;}
-.contacto{color: white;}
-.tituloqs{color: white;}
-.quinesson{color: white;}
- 
-@media (min-width:1024px){
-    .gridindex{display:grid;
+.armasti {
+  transition: all 1s;
+}
+.armasti:hover {
+  transform: translateY(-10px);
+}
+
+.perti {
+  transition: all 1s;
+}
+.perti:hover {
+  transform: translateY(-10px);
+}
+
+header {
+  background-image: linear-gradient(to bottom, white, black);
+}
+
+footer {
+  background-image: linear-gradient(to bottom, black, white);
+}
+
+@media (min-width: 1024px) {
+  .gridindex {
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-}
-header, footer, ul{display: flex;
-justify-content: space-between;}
-.gridmainindex{
+  }
+  header, footer, ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .gridmainindex {
     display: grid;
-    grid-template-areas:
-    "titulo titulo"
-    "pIzq imgDer"
-    "imgizq pDer";
+    grid-template-areas: "titulo titulo" "pIzq imgDer" "imgizq pDer";
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto;
-}
-.titulointroducccion{grid-area: titulo;}
-.parrafoizq{grid-area: pIzq;}
-.imgguia{grid-area: imgDer;}
-.parrafoder{grid-area: pDer;}
-.imgfr{grid-area: imgizq;}
-.just-content-spa-betw
-{justify-content: space-between;}
-.align-items-center{align-items: center;}
-.gridindex{display:grid;
+  }
+  .titulointroducccion {
+    grid-area: titulo;
+  }
+  .parrafoizq {
+    grid-area: pIzq;
+  }
+  .imgguia {
+    grid-area: imgDer;
+  }
+  .parrafoder {
+    grid-area: pDer;
+  }
+  .imgfr {
+    grid-area: imgizq;
+  }
+  .just-content-spa-betw {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .gridindex {
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-}
-.gridindex{display:grid;
+  }
+  .gridindex {
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-}
-.imgguia{display: flex;
-    justify-content: center;}
-    .imgfr{display: flex;
-        justify-content: center;}
-        body{background-color: black;}
-/* QUINES SON */
-.gridqs{display: grid;
-grid-template-columns: 100%;
-grid-template-rows: auto auto auto;
-}
-.gridmainqs{display: grid;
-grid-template-areas:
-"imgprincipalqs"
-"tituloqs"
-"quinesson"
-"imgq";
-grid-template-columns: 100%;
-grid-template-areas: auto auto auto auto;}
-.imgprincipalqs{grid-area: imgpqs;}
-.tituloqs{grid-area: tituloqs;}
-.quinesson{grid-area: quinesson;}
-.imgq{grid-area: imgq;}
-.just-cont-sp-betq{justify-content:space-between;}
-
-}
-.gridmainqs{display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;}
-.gridmainpersonajes{
+  }
+  .imgguia {
+    display: flex;
+    justify-content: center;
+  }
+  .imgfr {
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    background-color: black;
+  }
+  /* QUINES SON */
+  .gridqs {
     display: grid;
-    grid-template-areas:
-    "titulopersonajes titulopersonajes titulopersonajes titulopersonajes"
-    "permaxim perhayato persteffie permoco";
-    grid-template-columns: 28% 28% 28% 28%;
-    grid-template-rows: auto auto;
-}
-.titulopersonajes{grid-area: titulopersonajes;}
-.permaxim{grid-area: permaxim;}
-.perhayato{grid-area: perhayato;}
-.persteffie{grid-area: persteffie;}
-.permoco{grid-area: permoco;}
-
-.gridmainarmas{
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  .gridmainqs {
     display: grid;
-    grid-template-areas:
-    "titulomainarmas titulomainarmas titulomainarmas titulomainarmas"
-    "arscar armp40 arg18 arfrancotirador";
-    grid-template-columns: 28% 28% 28% 28%;
+    grid-template-areas: "imgprincipalqs" "tituloqs" "quinesson" "imgq";
+    grid-template-columns: 100%;
+    grid-template-areas: auto auto auto auto;
+  }
+  .imgprincipalqs {
+    grid-area: imgpqs;
+  }
+  .tituloqs {
+    grid-area: tituloqs;
+  }
+  .quinesson {
+    grid-area: quinesson;
+  }
+  .imgq {
+    grid-area: imgq;
+  }
+  .just-cont-sp-betq {
+    justify-content: space-between;
+  }
+  .gridmainqs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .gridmainpersonajes {
+    display: grid;
+    grid-template-areas: "titulopersonajes titulopersonajes titulopersonajes" "permaxim perhayato persteffie" "moco miguel andrew" "rafael antonio wukong" "laura caroline A124";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+  }
+  .titulopersonajes {
+    grid-area: titulopersonajes;
+  }
+  .permaxim {
+    grid-area: permaxim;
+  }
+  .perhayato {
+    grid-area: perhayato;
+  }
+  .persteffie {
+    grid-area: persteffie;
+  }
+  .moco {
+    grid-area: moco;
+  }
+  .miguel {
+    grid-area: miguel;
+  }
+  .andrew {
+    grid-area: andrew;
+  }
+  .rafael {
+    grid-area: rafael;
+  }
+  .antonio {
+    grid-area: antonio;
+  }
+  .wukong {
+    grid-area: wukong;
+  }
+  .laura {
+    grid-area: laura;
+  }
+  .caroline {
+    grid-area: caroline;
+  }
+  .A124 {
+    grid-area: A124;
+  }
+  .per {
+    display: flex;
+  }
+  .gridmainarmas {
+    display: grid;
+    grid-template-areas: "titulomainarmas titulomainarmas titulomainarmas titulomainarmas" "arscar armp40 arg18 arfrancotirador" "mp40 ump p90 mp5" "m102 m28 spa escopeta-recortada" "fracotirador brm28 kark98 kark98";
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto;
+  }
+  .titulomainarmas {
+    grid-area: titulomainarmas;
+  }
+  .arscar {
+    grid-area: arscar;
+  }
+  .armp40 {
+    grid-area: armp40;
+  }
+  .arg18 {
+    grid-area: arg18;
+  }
+  .arfrancotirador {
+    grid-area: arfrancotirador;
+  }
+  .mp40 {
+    grid-area: mp40;
+  }
+  .ump {
+    grid-area: ump;
+  }
+  .p90 {
+    grid-area: p90;
+  }
+  .mp5 {
+    grid-area: mp5;
+  }
+  .m102 {
+    grid-area: m102;
+  }
+  .m28 {
+    grid-area: m28;
+  }
+  .spa {
+    grid-area: spa;
+  }
+  .escopeta-recortada {
+    grid-area: escopeta-recortada;
+  }
+  .fracotirador {
+    grid-area: fracotirador;
+  }
+  .brm28 {
+    grid-area: brm28;
+  }
+  .kark98 {
+    grid-area: kark98;
+  }
+  .kark98 {
+    width: kark98;
+  }
+  .gridmainvaloracion {
+    display: grid;
+    grid-template-areas: "encabezadovl encabezadovl encabezadovl" "parrafodervl form parrafoizqvl" "imgvl imgvl imgvl";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+  }
+  .gridmainvaloracion .parrafodervl {
+    align-items: center;
+    margin: 20px;
+  }
+  .gridmainvaloracion .parrafoizqvl {
+    align-items: center;
+    margin: 20px;
+  }
+  .encabezadovl {
+    grid-area: encabezadovl;
+  }
+  .parrafodervl {
+    grid-area: parrafodervl;
+  }
+  .form {
+    grid-area: form;
+  }
+  .parrafoizqvl {
+    grid-area: parrafoizqvl;
+  }
+  .imgvl {
+    grid-area: imgvl;
+  }
+  label {
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgvl {
+    display: flex;
+    justify-content: center;
+  }
+  label {
+    font-size: 20px;
+  }
+  .kark98 {
+    width: 273px;
+  }
 }
-.titulomainarmas{grid-area: titulomainarmas;}
-.arscar{grid-area: arscar;}
-.armp40{grid-area: armp40;}
-.arg18{grid-area: arg18;}
-.arfrancotirador{grid-area: arfrancotirador;}
+@media (max-width: 768px) {
+  header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .imgguia {
+    display: flex;
+    justify-content: center;
+  }
+  .imgfr {
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    background-color: black;
+  }
+  .gridmainarmas {
+    display: grid;
+    grid-template-areas: "titulomainarmas" "arscar" "armp40" "arg18" "arfrancotirador" "mp40" "ump" "p90" "mp5" "m102" "m28" "spa" "escopeta-recortada" "fracotirador" "brm28" "kark98";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  .titulomainarmas {
+    grid-area: titulomainarmas;
+  }
+  .arscar {
+    grid-area: arscar;
+  }
+  .armp40 {
+    grid-area: armp40;
+  }
+  .arg18 {
+    grid-area: arg18;
+  }
+  .arfrancotirador {
+    grid-area: arfrancotirador;
+  }
+  .mp40 {
+    grid-area: mp40;
+  }
+  .ump {
+    grid-area: ump;
+  }
+  .p90 {
+    grid-area: p90;
+  }
+  .mp5 {
+    grid-area: mp5;
+  }
+  .m102 {
+    grid-area: m102;
+  }
+  .m28 {
+    grid-area: m28;
+  }
+  .spa {
+    grid-area: spa;
+  }
+  .escopeta-recortada {
+    grid-area: escopeta-recortada;
+  }
+  .fracotirador {
+    grid-area: fracotirador;
+  }
+  .brm28 {
+    grid-area: brm28;
+  }
+  .kark98 {
+    grid-area: kark98;
+  }
+  .gridmainvaloracion {
+    display: grid;
+    grid-template-areas: "encabezadovl" "form" "parrafoizqvl";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  .gridmainvaloracion .parrafodervl {
+    align-items: center;
+    margin: 20px;
+  }
+  .gridmainvaloracion .parrafoizqvl {
+    align-items: center;
+    margin: 20px;
+  }
+  .encabezadovl {
+    grid-area: encabezadovl;
+  }
+  .form {
+    grid-area: form;
+  }
+  .parrafoizqvl {
+    grid-area: parrafoizqvl;
+  }
+  label {
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-size: 20px;
+  }
+}
+ul {
+  list-style-type: none;
+}
 
-@media (max-width:768px){
-    header, footer{display:flex;
-        flex-direction: column;align-items: center;}
-    ul{display:flex;padding:0;flex-wrap: wrap}
-    .imgguia{display: flex;
-        justify-content: center;}
-        .imgfr{display: flex;
-            justify-content: center;}
-            body{background-color: black;}
+a {
+  text-decoration: none;
 }
+
+.img-fluid {
+  width: 125px;
+  height: auto;
+}
+
+.img-fluidar {
+  width: 200px;
+  height: auto;
+}
+
+.img-fluidlogo {
+  width: 100px;
+  height: auto;
+}
+
+.img-fluidqs {
+  width: 350px;
+  height: auto;
+}
+
+.img-fluidvl {
+  width: 400px;
+  height: auto;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.m10 {
+  margin: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.parrafoizq {
+  color: white;
+}
+
+.parrafoder {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.rrss {
+  color: white;
+}
+
+.contacto {
+  color: white;
+}
+
+.tituloqs {
+  color: white;
+}
+
+.quinesson {
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.per {
+  background-color: white;
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.armas {
+  background-color: white;
+  border: 1px solid blueviolet;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .gridmainarmas{display: flex; flex-direction: column;align-items: center;} */
+.armas {
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.titulopersonaje {
+  display: flex;
+  justify-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

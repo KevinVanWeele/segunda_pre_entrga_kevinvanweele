@@ -1,0 +1,28 @@
+ul{list-style-type: none ;}
+a{text-decoration:none ;}
+.img-fluid{width:125px;height: auto}
+.img-fluidar{width:200px;height: auto}
+.img-fluidlogo{width:100px;height: auto}
+.img-fluidqs{width:350px;height: auto}
+.img-fluidvl{width: 400px; height: auto;}
+.p20{padding:20px}
+.m10{margin:20px}
+.mb20{margin-bottom:20px}
+.parrafoizq{color: $blanco;}
+.parrafoder{color: $blanco;}
+h1{color: $blanco;}
+.rrss{color: $blanco;}
+.contacto{color: $blanco;}
+.tituloqs{color: $blanco;}
+.quinesson{color: $blanco;}
+h4{font-size: 20px;}
+.per{background-color: $blanco; border: 1px solid blueviolet;border-radius:20px;
+ padding:10px; margin: 10px; display: flex; flex-direction: column;align-items: center; justify-content: center;}
+    // .gridmainpersonajes div{display: flex; flex-direction: column;align-items: center; justify-content: center;}
+    .armas{background-color: $blanco; border: 1px solid blueviolet;border-radius:40px;
+        padding:10px ;display: flex; flex-direction: column; align-items: center;}
+        /* .gridmainarmas{display: flex; flex-direction: column;align-items: center;} */
+.armas{ padding: 10px; margin: 10px;}
+h2{color:$blanco;}
+h1{display: flex; justify-content: center;}
+.titulopersonaje{display: flex; justify-content: center;}
