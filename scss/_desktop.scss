@@ -61,7 +61,7 @@ grid-template-areas: auto auto auto auto;}
     .gridmainpersonajes{
         display: grid;
         grid-template-areas:
-        "titulopersonajes titulopersonajes titulopersonajes"
+        "titulopersonaje titulopersonaje titulopersonaje"
         "permaxim perhayato persteffie"
         "moco miguel andrew"
         "rafael antonio wukong"
@@ -69,7 +69,7 @@ grid-template-areas: auto auto auto auto;}
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto auto auto;
     }
-    .titulopersonajes{grid-area: titulopersonajes;}
+    .titulopersonaje{grid-area: titulopersonaje;}
     .permaxim{grid-area: permaxim;}
     .perhayato{grid-area: perhayato;}
     .persteffie{grid-area: persteffie;}

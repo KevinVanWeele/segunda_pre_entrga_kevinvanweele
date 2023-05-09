@@ -113,12 +113,12 @@ footer {
   }
   .gridmainpersonajes {
     display: grid;
-    grid-template-areas: "titulopersonajes titulopersonajes titulopersonajes" "permaxim perhayato persteffie" "moco miguel andrew" "rafael antonio wukong" "laura caroline A124";
+    grid-template-areas: "titulopersonaje titulopersonaje titulopersonaje" "permaxim perhayato persteffie" "moco miguel andrew" "rafael antonio wukong" "laura caroline A124";
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto;
   }
-  .titulopersonajes {
-    grid-area: titulopersonajes;
+  .titulopersonaje {
+    grid-area: titulopersonaje;
   }
   .permaxim {
     grid-area: permaxim;
@@ -273,6 +273,8 @@ footer {
     display: flex;
     padding: 0;
     flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
   }
   .imgguia {
     display: flex;
@@ -487,9 +489,35 @@ h1 {
   justify-content: center;
 }
 
-.titulopersonaje {
-  display: flex;
-  justify-items: center;
+.img-fluid {
+  width: 250px;
+  height: auto;
+}
+
+.img-fluidp {
+  width: 125px;
+  height: auto;
+}
+
+.img-fluidvl {
+  width: 350px;
+  height: auto;
+}
+
+.contactop {
+  color: black;
+}
+
+.parrafoizq {
+  font-size: 20px;
+}
+
+.parrafoder {
+  font-size: 20px;
+}
+
+.quinesson {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

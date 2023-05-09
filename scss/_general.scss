@@ -24,5 +24,11 @@ h4{font-size: 20px;}
         /* .gridmainarmas{display: flex; flex-direction: column;align-items: center;} */
 .armas{ padding: 10px; margin: 10px;}
 h2{color:$blanco;}
-h1{display: flex; text-align: center;}
-.titulopersonaje{display: flex; text-align: center;}
+h1{display: flex; justify-content: center;}
+.img-fluid{ width: 250px; height: auto;}
+.img-fluidp{ width: 125px;height: auto;}
+.img-fluidvl{width: 350px;height: auto;}
+.contactop{ color: $negro;}
+.parrafoizq{ font-size: 20px;}
+.parrafoder{ font-size: 20px;}
+.quinesson{ font-size: 20px;}
